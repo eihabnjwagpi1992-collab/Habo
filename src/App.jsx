@@ -6,8 +6,7 @@ import Home from "./pages/Home";
 import Login from "./pages/Login";
 import Dashboard from "./pages/Dashboard";
 // 👇 هذا السطر كان ناقص
-import NotFound from "./pages/NotFound"; 
-
+import NotFound from "./pages/notFound"; 
 function App() {
   return (
     <Router>
