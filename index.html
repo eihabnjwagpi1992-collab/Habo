@@ -1,14 +1,60 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="https://base44.com/logo_v2.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="manifest" href="/manifest.json" />
-    <title>Base44 APP</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TSmart GSM Pro | خدمات السوفت وير الاحترافية</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #0f172a; color: white; }
+        .service-card { background: #1e293b; border: 1px solid #334155; transition: 0.3s; }
+        .service-card:hover { border-color: #38bdf8; transform: translateY(-2px); }
+    </style>
+</head>
+<body class="p-4">
+    <header class="text-center py-6 border-b border-slate-700">
+        <h1 class="text-3xl font-bold text-sky-400">TSmart GSM Pro</h1>
+        <p class="text-slate-400 mt-2">خبير السوفت وير: أبو هشام</p>
+    </header>
+
+    <div class="grid grid-cols-3 gap-2 my-6 text-center text-xs">
+        <div class="p-2 bg-slate-800 rounded">وكيل برونزي</div>
+        <div class="p-2 bg-yellow-900/30 border border-yellow-600 rounded text-yellow-500">وكيل ذهبي</div>
+        <div class="p-2 bg-sky-900/30 border border-sky-600 rounded text-sky-400">وكيل VIP</div>
+    </div>
+
+    <section>
+        <h2 class="text-xl mb-4 font-semibold border-r-4 border-sky-500 pr-2">أقسام الخدمات الاحترافية</h2>
+        <div class="space-y-4">
+            
+            <div class="service-card p-4 rounded-xl">
+                <h3 class="text-lg font-bold text-yellow-400">تفعيل برامج وأدوات السوفت وير</h3>
+                <p class="text-sm text-slate-400">تفعيل سنوي وشهري (UnlockTool, Chimera, Hydra, EFT Pro) بأفضل الأسعار.</p>
+                <a href="https://wa.me/963986903946" class="mt-3 inline-block bg-yellow-600 px-4 py-2 rounded-lg text-sm font-bold">تفعيل الآن</a>
+            </div>
+
+            <div class="service-card p-4 rounded-xl">
+                <h3 class="text-lg font-bold text-sky-300">خدمات IMEI & Network</h3>
+                <p class="text-sm text-slate-400">إصلاح الآيمي الرسمي، فك شفرات الشبكة الدولية، وتخطي حماية السامسونج.</p>
+                <a href="https://wa.me/963986903946" class="mt-3 inline-block bg-sky-600 px-4 py-2 rounded-lg text-sm font-bold">طلب خدمة IMEI</a>
+            </div>
+
+            <div class="service-card p-4 rounded-xl">
+                <h3 class="text-lg font-bold text-sky-300">Apple iCloud Services</h3>
+                <p class="text-sm text-slate-400">تخطي حسابات الآيكلود، فك الأجهزة المقفولة، وخدمات Checkm8.</p>
+                <a href="https://wa.me/963986903946" class="mt-3 inline-block bg-green-600 px-4 py-2 rounded-lg text-sm font-bold">تواصل عبر واتساب</a>
+            </div>
+
+        </div>
+    </section>
+
+    <div class="mt-8 p-4 bg-slate-800/50 rounded-lg text-center border border-slate-700">
+        <p class="text-sm text-slate-300">لشحن الرصيد الفوري واستفسارات الوكلاء:</p>
+        <p class="text-xl font-mono text-sky-400 mt-1" dir="ltr">+963 986 903 946</p>
+    </div>
+
+    <footer class="mt-10 text-center text-slate-500 text-xs">
+        <p>© 2026 TSmart GSM Pro - جميع الحقوق محفوظة</p>
+    </footer>
+</body>
 </html>
